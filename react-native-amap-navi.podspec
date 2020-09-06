@@ -5,12 +5,12 @@ package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
 Pod::Spec.new do |s|
   s.name         = "react-native-amap-navi"
   s.version      = "0.2.0"
-  s.summary      = package['description']
+  s.summary      = "react-native-amap-navi from author yz1311"
   s.authors      = { package["author"] => 'yz1311@foxmail.com' }
   s.homepage     = package['repository']['url']
   s.license      = { :type => package['license']}
   s.platform     = :ios, "8.0"
-  s.source       = { :git => package['repository']['url'] }
+  s.source       = { :git => package['repository']['url'], :tag => "master" }
   s.source_files = '**/*.{h,m}'
 
   s.dependency 'React'

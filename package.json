@@ -1,7 +1,7 @@
 
 {
   "name": "@manyox/rn-amap-navi",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhangdongfarmer/react-native-amap-navi"
+    "url": "https://github.com/zhangdongfarmer/react-native-amap-navi.git"
   },
   "author": "yz1311",
   "license": "MIT",
